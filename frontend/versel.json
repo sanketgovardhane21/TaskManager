@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://auth-frontend-lemon.vercel.app/"
+    }
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist", // or "build" depending on your frontend
+  "framework": "vite" // or "create-react-app" or "nextjs", etc.
+}
