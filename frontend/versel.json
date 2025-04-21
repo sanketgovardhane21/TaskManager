@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://auth-frontend-lemon.vercel.app/"
+      "destination": "https://task-manager-frontend-pi-swart.vercel.app/"
     }
   ],
   "buildCommand": "npm run build",
